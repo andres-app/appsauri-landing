@@ -4,14 +4,18 @@ import { RiCheckboxBlankCircleFill } from "react-icons/ri";
 
 export const Header = () => {
   return (
-    <header className='flex items-center w-full p-4'>
+    <header className='flex items-center w-full p-4 h-[10vh]'>
       <div className='w-1/6 text-center'>
         <span className='text-2xl font-bold relative p-1 bg-white'>
           Appsauri <span className='text-primary text-5xl'>.</span>{''}
           <RiCheckboxBlankCircleFill className='absolute -left-3 -bottom-3 text-pacman -z-10'/></span>
       </div>
-      <nav className='flex-1 text-center'>
-        <h1>Nav</h1>
+      <nav className='flex-1 justify-center flex items-center gap-10'>
+        <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Services</a>
+        <a href="">Productos</a>
+        <a href="">Contact</a>
       </nav>
     </header>
   )
